@@ -13,6 +13,7 @@ int main()
     srand(time(0));
     answer = (rand() % MAX) + MIN;
 
+    //algoritmus pro zpracování odhadu
     do
     {
         printf("napis svuj odhad: ");
